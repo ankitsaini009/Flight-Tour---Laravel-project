@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  font-family: "Poppins",  sans-serif;
+}
+.container{
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+input,textarea ,select{
+  outline: none;
+}
+  header .whatup:hover i{
+    color: #fff;
+  }
+
+  .flight-info .tab-content{
+    box-shadow: 0px 2px 4px 0px #3E34450A, 0px 33px 32px -4px #3E34451A;
+  }
+  .tour-package  .buttons {
+    position: relative;
+    margin-top: 60px;
+}
+
+.tour-package .swiper-button-next:after, .tour-package .swiper-rtl .swiper-button-prev:after {
+    content: '';
+    display: none !important;
+}
+.swiper-button-prev:after, .tour-package .swiper-rtl .swiper-button-next:after {
+    content: '';
+    display: none !important;
+}
+.tour-package .swiper-button-next.next-btn,
+.tour-package .swiper-button-prev.prev-btn {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #115779;
+    border-radius: 50%;
+
+}
+.tour-package .swiper-button-next.next-btn i,
+.tour-package .swiper-button-prev.prev-btn i{
+color: #115779;
+font-size: 16px;
+}
+.tour-package .swiper-button-next, .tour-package .swiper-rtl .swiper-button-prev {
+    left: auto;
+
+}
+.tour-package .swiper-button-next, .tour-package .swiper-button-prev {
+    position: absolute;
+    bottom: 0;
+    top: auto;
+}
+.tour-package .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  text-align: left;
+}
+.tour-package .swiper-button-prev, .tour-package .swiper-rtl .swiper-button-next {
+  left: auto;
+  right: 80px;
+}
+.tour-package .swiper-pagination-bullet-active {
+    background: #000;
+}
+.tour-package .swiper-pagination-bullet {
+   height: 8px;
+   width: 8px;
+}
+
+.flight .check-box::before{
+  border-color: #115779 !important;
+}
+.bg-img-color::before {
+  content: "";
+  background-color: rgb(0 0 0 / 50%);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+ .leading-normal{
+  line-height: normal !important;
+ }
+@media screen and (max-width:1024px){
+ 
+ 
+  
+ 
+}
+   
+
+
+
+
+@media screen and (max-width:1080px){
+  .inbox-manage .content::after{
+    background-size: 22% auto;
+  }
+
+
+
+}
+@media screen and (max-width:991px){
+
+  footer .footer-content .info-links.grid-cols-2{
+    grid-template-columns: 2fr 3fr;
+  }
+}
+
+
+@media screen and (max-width:767px){
+  header i.fa-brands.fa-whatsapp {
+display: none !important;
+  }
+.signin{
+  background-image: none !important;
+}
+}
+
+
+/*  */
